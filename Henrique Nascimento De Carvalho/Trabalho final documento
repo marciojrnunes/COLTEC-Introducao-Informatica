@@ -1,0 +1,136 @@
+
+
+
+
+
+
+Trabalho Final Introdução à Informática - 1° Semestre
+Prof: Lianny Sanchez
+
+Aluno: Henrique Nascimento de Carvalho
+
+Visual Studio Code
+
+
+
+Sobre
+
+
+Visual Studio Code conhecido popularmente como VSCode foi anunciado oficialmente no dia 29 de Abril de 2016 com versões de preview enquanto ainda em desenvolvimento que começou em novembro de 2015 pela microsoft, ele funciona em Windows, linux e macOS, o vs code é um editor de código fonte leve, rapido e muito personalizável sendo permitido a instalação de diversas extensões, linguagens como JavaScript, TypeScript, Python, Java, C++, C#, PHP, Go, Ruby e muito mais que podem ser instaladas via extensões. o vs code é gratuito e open source.
+
+
+
+*Principais Funcionalidades*
+
+
+1. Edição Inteligente  
+ – Autocompletar o código de acordo com o contexto que esta sendo trabalhado pelo usuario, destaque nas sintaxes através de extensões com suporte em varias linguagens.
+
+
+2. Depuração 
+- Depurador Integrado  Breakpoints, inspeção de variáveis e execução passo a passo.
+- Console Interativo depuração em tempo real do codigo atrabves do terminal
+- Perfis de Debug Configurações personalizadas para diferentes ambientes
+
+
+
+3. Controle de Versão
+
+- Git Integrado Visualiza alterações, faz commit, push e pull sem sair do editor, é possivel.
+
+ funcionalidade diff toll comparando as mundanças lado a lado.
+
+
+4. Terminal Integrado
+- Terminal Multitarefa – Abre vários terminais tipo CMD, PowerShell, bash dentro do VS Code.
+ – Roda scripts diretamente no terminal integrado.
+
+5. Marketplace
+
+- Milhares de extensoes, plugins, temas e suportes para linguagens incluido no market place.
+
+
+6. Personalização
+- O VS Code é altamente personalizável com temas, extensões, atalhos e layouts modulares, permitindo adaptar o editor ao seu fluxo de trabalho e preferências visuais
+
+7. Ferramentas para Desenvolvimento Web
+- Emmet Atalhos para HTML/CSS.
+- Preview de HTML, Visualização instantânea de arquivos.
+
+
+8. Produtividade
+ – Edita várias linhas simultaneamente (Alt+Click).
+ - Busca Avançada – Procura em todos os arquivos do projeto (Ctrl+Shift+F).
+
+
+9. Suporte a Containers & DevOps
+- Dev Containers Desenvolva dentro de containers Docker.
+- Integração com Azure, AWS, etc. – Extensões para cloud e CI/CD.
+
+10. Portabilidade & Performance
+- Modo Portátil  Pode ser executado de um pendrive em sua versão portátil.
+- Baixo Consumo – Comparado a IDEs mais pesadas ele roda bem em maquinas modestas.
+
+
+
+
+Principais linguagens Visual Studio Code
+
+o VsCode e muito versátil e suporta praticamente qualquer linguagem de programação, irei listas dentre elas as que são mais populares usados no vscode, todas encontramos extensoes adiocionais no marketplace.
+
+JavaScript/TypeScript .
+Python com extensão oficial comdepurador e análise do código.
+HTML/CSS 
+Java 
+C#
+PHP 
+Go (extensão da Google com alta performance para sistemas/cloud)
+Ruby (suporte a Rails com depuradorr integrado)
+C/C++ (extensão Microsoft para desenvolvimento de sistemas)
+Rust
+
+
+
+Ferramentas Git No  VsCode  
+
+
+1. Abrir um Projeto com Git
+Abra a pasta do seu projeto no VS Code.
+Se a pasta já tem um repositório Git, o VS Code detecta automaticamente.
+
+
+
+
+2. Iniciar um Repositório Git 
+
+
+-Abra o terminal no VS Code (Ctrl + `).
+Digite: git init
+
+
+
+3. Ver Alterações
+-Na barra lateral, clique no ícone do Git .
+ -Você verá os arquivos modificados (Changes).
+4. Adicionar e Commitar
+-Passe o mouse sobre o arquivo modificado e clique no + (para adicionar ao stage).
+-Digite uma mensagem de commit na caixa de texto em cima.
+-Clique no Commit.
+
+
+5. Enviar para o GitHub/GitLab (se tiver um repositório remoto)
+No terminal, configure o repositório remoto
+git remote add origin URL_DO_REPOSITORIO
+
+Envie as alterações
+git push -u origin main
+
+6. Atualizar do Repositório Remoto
+- Puxe as alterações: git pull
+bash
+
+7. Trocar de Branch 
+-No canto inferior esquerdo, clique no nome do branch,
+Escolha ou crie um novo branch.
+
+
